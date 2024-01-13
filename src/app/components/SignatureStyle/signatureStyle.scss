@@ -1,0 +1,21 @@
+.signature-selector {
+  .signature-input {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  }
+
+  .radio-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0px;
+    .item {
+      width: 48%;
+      margin-bottom: 1rem;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      padding: 1rem;
+    }
+  }
+}
